@@ -1,0 +1,14 @@
+.box {
+	margin: 15px;
+	padding: 15px;
+	border: 1px solid white;
+	cursor:pointer;
+
+	div {
+		margin-top: 10px;
+	}
+
+	&:first-child {
+		margin-top:0;
+	}
+}

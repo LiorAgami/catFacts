@@ -3,7 +3,10 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  FACTS_API_BASE_URL: 'https://cat-fact.herokuapp.com/facts/random',
+  API_BASE_URL: 'http://127.0.0.1/catFacts/server/',
+  TESTS_MODE: false
 };
 
 /*

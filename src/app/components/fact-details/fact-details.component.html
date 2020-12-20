@@ -1,0 +1,7 @@
+<div *ngFor="let fact of factsList">
+  <div class="box" *ngIf="fact?.showInDetailsSection" (dblclick)="moveItemToListSection(fact.id)">
+    <div>“ {{fact.fact}} ”</div>
+    <div>{{fact.user}}</div>
+    <div>🤚 {{fact.upvotes}}</div>
+  </div>
+</div>

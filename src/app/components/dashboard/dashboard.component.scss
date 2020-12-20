@@ -1,0 +1,39 @@
+.dashboard {
+
+	padding :0 20px;
+
+	.dashboard__list {
+		border-right: 1px solid aquamarine;
+		max-width: 200px;
+	}
+
+	.dashboard__saveBtnCont {
+
+		position: fixed;
+		bottom: 100px;
+		right: 150px;
+		width: 80px;
+		height: 80px;
+
+		&:hover{
+			bottom: 90px;
+			right: 140px;
+			width: 90px;
+			height: 90px;
+		}
+
+		button {
+			background-image: linear-gradient(to bottom, aquamarine, orangered);
+			height: inherit;
+			width: inherit;
+			border: none;
+			border-radius: 50px;
+			box-shadow: none;
+			color:#000;
+			box-shadow: 3px -3px 2px grey;
+			outline: none;
+			cursor: pointer;
+		}
+
+	}
+}
