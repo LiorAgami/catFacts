@@ -2,7 +2,7 @@
 # Cats Facts App
 
 
-This App was built for fun and for learning new techniques.
+This App was built for fun and for demonstrating the usage of RxJS operators combined with Angular and 3rd party Api.
 
 It includes the following technologies: Angular, PHP, RxJS, Es6, Typescript, ngx-toaster, [cat-facts API](https://alexwohlbruck.github.io/cat-facts/docs/).
 
